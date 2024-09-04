@@ -13,7 +13,7 @@
 }
 
 .card{
-    background-color: lightblue;
+    background-color: lightgray;
     height: 60vh;
     width: 40vw;
     display: flex;
@@ -26,4 +26,54 @@
 
 .card h1{
     font-size: 50px;
+
 }
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.usuario label{
+    font-size: 30px;
+    
+}
+
+.usuario input{
+    font-size: 25px;
+    width: 300px;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.senha label{
+    font-size: 30px;
+}
+
+.senha input{
+    font-size: 25px;
+    width: 300px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
